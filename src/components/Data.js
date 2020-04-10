@@ -135,7 +135,6 @@ export class Data extends Component {
                     </thead>
                     <tbody>
                         {this.state.data.map((item, index) => <tr key={index}>
-                            <td>{item.id}</td>
                             <td>{item.firstname}</td>
                             <td>{item.lastname}</td>
                             <td><button onClick={() => this.onEdit(item.id)}>Edit</button></td>
